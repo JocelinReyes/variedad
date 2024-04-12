@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int vector[10];
+    int i =0;
+    int val =10;
+    while (i<10){
+        vector[i]=val;
+        printf("el vector [%d] es = %d\n", i, vector[i]);
+        i++;
+    }
+    i =0;
+    while (i<10){
+        printf("el vector [%d] es = %d\n", i, vector[i]);
+        i++;
+    }
+    return 0;
+}
