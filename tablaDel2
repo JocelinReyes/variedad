@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    int miArreglo[100];
+    int i = 0;
+    int e = 100;
+    while (i<100){
+        printf("2 * %d = %d\n", i, 2*i);
+        i++;
+        e--;
+    }
+    system("pause");
+    return 0;
+    
+    
+}
