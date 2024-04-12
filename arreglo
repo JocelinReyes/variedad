@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    int A={3,5,6,8,4,7,8,5,3,1};
+    int B={3,4,6,8,9,1,2,3,0,9};
+    int c,d,e,f,g;
+    c= A[3]%(B[2]/2);
+    d=B[A[1]] - A[9];
+    e=A[0] + A[1+2];
+    f=A[5] + B[5];
+    g=(A[3]/B[2])/2;
+    printf("%d, %d, %d, %d, %d", c, d, e, f,g);
+
+    return 0;
+    system("pause");
+
+}
